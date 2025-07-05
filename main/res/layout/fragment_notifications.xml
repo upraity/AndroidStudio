@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.FragmentSettings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/theme"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Theme"
+            android:textSize="20dp"
+            app:cornerRadius="30dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="About Us"
+            android:textSize="20dp"
+            app:cornerRadius="30dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/contactus"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Contact Us"
+            android:textSize="20dp"
+            app:cornerRadius="30dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/sharebtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Share App"
+            android:textSize="20dp"
+            app:cornerRadius="30dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/policy"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Privacy Policy"
+            android:textSize="20dp"
+            app:cornerRadius="30dp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</FrameLayout>

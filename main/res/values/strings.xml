@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Status Saver</string>
+    <string name="title_home">Whatsapp Status</string>
+    <string name="title_dashboard">Whatsapp Business Status</string>
+    <string name="title_notifications">Setting</string>
+    <string name="hello_blank_fragment">Hello from Blank Fragment</string>
+</resources>
