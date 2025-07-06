@@ -1,0 +1,7 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Change status bar color -->
+        <item name="android:statusBarColor">@color/grey_850</item> <!-- Change to your desired color -->
+    </style>
+</resources>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BarcodeScanner" parent="Theme.Material3.DayNight.NoActionBar">
+
+<!--        <item name="colorPrimary">#6200EE</item>-->
+        <item name="colorPrimary">#621dd7</item>
+        <item name="colorPrimaryVariant">#621dd7</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">@color/grey_850</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionBarTheme">@color/colorText</item>
+
+    </style>
+
+<!--    <style name="Theme.BarcodeScanner" parent="Base.Theme.BarcodeScanner" />-->
+<!--    <style name="AppPopupMenuDark" parent="ThemeOverlay.AppCompat.Dark">-->
+<!--        <item name="android:textColor">#FFFFFF</item> &lt;!&ndash; Light text &ndash;&gt;-->
+<!--        <item name="android:background">#424242</item> &lt;!&ndash; Dark grey background &ndash;&gt;-->
+<!--    </style>-->
+</resources>

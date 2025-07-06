@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Dark Mode -->
+    <style name="Theme.BarcodeScanner" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#621dd7</item>
+        <item name="colorPrimaryContainer">#4a0db6</item> <!-- Optional -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">@color/grey_850</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+<!--    <style name="Theme.BarcodeScanner" parent="Base.Theme.BarcodeScanner" />-->
+
+<!--    <style name="AppPopupMenuDark" parent="ThemeOverlay.AppCompat.Dark">-->
+<!--        <item name="android:textColor">#FFFFFF</item>-->
+<!--        <item name="android:background">#424242</item> &lt;!&ndash; Might need custom style for consistency &ndash;&gt;-->
+<!--    </style>-->
+</resources>
